@@ -2,9 +2,12 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">Om Oss</router-link>|
+      <router-link to="/meny">Meny</router-link> |
+      <router-link to="/orderstatus">OrderStatus</router-link> |
+      <router-link to="/profile">Min profile</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
